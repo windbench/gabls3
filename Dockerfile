@@ -20,10 +20,12 @@ COPY eudat_start.sh /usr/local/bin/
 
 ## allow the user to mount eudat folder
 #RUN chown root.root /home/jovyan/work/eudat_connect.sh
-#RUN chown -R $NB_USER:users /usr/local/bin/eudat_start.sh
+
+RUN chown -R $NB_USER:users /usr/local/bin/eudat_start.sh
 
 #RUN chmod 4755 /home/jovyan/work/eudat_connect.sh
-#RUN chmod +x /usr/local/bin/eudat_start.sh
+
+RUN chmod +x /usr/local/bin/eudat_start.sh
 
 #RUN echo "jovyan  ALL=NOPASSWD: /home/jovyan/work/eudat_connect.sh" >> /etc/sudoers
 
