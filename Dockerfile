@@ -32,7 +32,7 @@ RUN chmod +x /usr/local/bin/eudat_start.sh
 # switch back to the standard user and create a folder for mounting
 USER jovyan
 
-
+RUN mkdir /home/$NB_USER/work/data
 
 # CMD ["/usr/local/bin/start-eudat.sh", " "]
 #CMD start-eudat.sh
