@@ -23,6 +23,7 @@ progressfilt ()
     done
 }
 
+# data folder can be downloaded manually from https://b2drop.eudat.eu/s/gGMXxHJjRwUGe2A
 SHARELINK=https://b2drop.eudat.eu/s/gGMXxHJjRwUGe2A
 
 FILES="GABLS3_tendencies_d02_YSU_w60_L9000.nc
@@ -49,10 +50,7 @@ for f in $FILES
 do
 	wget --progress=bar:force -nc -O /home/jovyan/work/data/$f $SHARELINK"/download?path=%2F&files="$f 2>&1 | progressfilt
 done
-#curl -s -o /home/jovyan/work/data/gabls3_scm_cabauw_obs_v33.nc 'https://b2drop.eudat.eu/s/HSH5cwfqoeJ76t6/download?path=%2F&files='gabls3_scm_cabauw_obs_v33.nc'  ;return 0
 
 set -e
-
-#sudo /home/jovyan/work/eudat_connect.sh
 
 . /usr/local/bin/start.sh jupyter notebook $*
