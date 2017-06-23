@@ -43,13 +43,15 @@ GABLS3_CFDWindSCM_turb5_T2obs_UVTnud2-200tau10_21.nc
 GABLS3_CFDWindSCM_turb5_T2_UVnud40-400_14.nc
 GABLS3_CFDWindSCM_turb5_T2_UVnud40-200_15.nc
 GABLS3_CFDWindSCM_turb5_T2_UVnud40-200tau30_16.nc
-GABLS3_CFDWindSCM_turb5_T2_UVnud40-200tau10_17.nc
-gabls3_scm_cabauw_obs_v33.nc"
+GABLS3_CFDWindSCM_turb5_T2_UVnud40-200tau10_17.nc"
 
 for f in $FILES
 do
 	wget --progress=bar:force -nc -O /home/jovyan/work/data/$f $SHARELINK"/download?path=%2F&files="$f 2>&1 | progressfilt
 done
+
+#Fetch validation data from the source
+wget --progress=bar:force -nc -O /home/jovyan/work/data/"gabls3_scm_cabauw_obs_v33.nc" "http://projects.knmi.nl/gabls/gabls3_scm_cabauw_obs_v33.nc" 2>&1 | progressfilt
 
 set -e
 
