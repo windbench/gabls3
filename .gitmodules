@@ -1,0 +1,3 @@
+[submodule "GABLS3-CFDWindSCM"]
+	path = GABLS3-CFDWindSCM
+	url = https://github.com/jsrodrigo/GABLS3-CFDWindSCM.git
