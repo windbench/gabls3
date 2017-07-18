@@ -1,5 +1,6 @@
 # Windbench/GABLS3: Results of the GABLS3 diurnal cycle benchmark for wind energy applications 
-Javier Sanz Rodrigo, jsrodrigo@cener.com, July 2017
+Javier Sanz Rodrigo, National Renewable Energy Centre (CENER), Sarriguren, Spain, jsrodrigo@cener.com 
+July 2017
 
 In this repository you can find the jupyter notebook that was used to evaluate the simulations submitted to the GABLS3 benchmark for wind energy applications: http://windbench.net/gabls-3 
 
