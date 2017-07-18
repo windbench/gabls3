@@ -24,6 +24,26 @@ download "http://hdl.handle.net/11304/936990a4-d8b8-47d0-bb69-628c2ff99e5c" "GAB
 download "http://hdl.handle.net/11304/b460ab67-9696-47ca-94b5-0515caa4ca0e" "GABLS3_CFDWindSCM_turb5_Tsk_7.nc"
 download "http://hdl.handle.net/11304/59d8d6d7-8300-4aff-aeb4-9812b6153ee9" "GABLS3_tendencies_d02_YSU_w60_L9000.nc"
 
+#Fetch results from http://doi.org/10.23728/b2share.f5d5a492d8aa4b7998b70abd68f5eae4
+download "http://hdl.handle.net/11304/97b760fd-c299-4d6b-84ce-3207afe6d298" "Alya-CFDWind1D.nc"
+download "http://hdl.handle.net/11304/e30aea38-9e75-4dd4-9795-c208ac12f859" "CFDWindSCM_ke.nc"
+download "http://hdl.handle.net/11304/d7e735b2-a452-448b-8414-7620af206984" "Ellipsys1D_TskWRF.nc"
+download "http://hdl.handle.net/11304/cdbf2f49-5ac5-431c-adf4-69346f6e1882" "Ellipsys3D_LES_TskWRF.nc"
+download "http://hdl.handle.net/11304/29029d0c-93bf-4bd0-8536-97606df14219" "Ellipsys3D_TskWRF.nc"
+download "http://hdl.handle.net/11304/1a6c12a2-5308-4ae0-b0e2-1dba75498917" "GABLS3_tendencies_d02_YSU_w60_L9000.nc"
+download "http://hdl.handle.net/11304/3b3e447c-faea-4c1a-b30d-ffbb4b7dd8f1" "SP-Wind.nc"
+download "http://hdl.handle.net/11304/24a05a3a-5ed3-4373-8273-331b3b812e50" "VentosM.nc"
+download "http://hdl.handle.net/11304/141ed020-4624-46fd-80e8-04c94b426628" "WRF-LES_d8.nc"
+download "http://hdl.handle.net/11304/fa898581-cb9e-4df8-85f8-6d4e872c9d26" "WRF-MJY_ERA.nc"
+download "http://hdl.handle.net/11304/ad8fd2b4-1f5b-4aa8-94ab-ed82f7513def" "WRF-MJY_GFS.nc"
+download "http://hdl.handle.net/11304/c70af221-d828-4fdc-9c4c-97c6a75f878a" "WRF-MYNN_ERA.nc"
+download "http://hdl.handle.net/11304/246fd920-ace7-46db-a8f8-893ebec7f925" "WRF-MYNN_GFS.nc"
+download "http://hdl.handle.net/11304/c84f4eb6-52ee-43ba-b73e-32d741015078" "WRF-QNSE_ERA.nc"
+download "http://hdl.handle.net/11304/24167abe-304a-4863-be89-872f5fa5dcd3" "WRF-QNSE_GFS.nc"
+download "http://hdl.handle.net/11304/aa8629b1-dc43-4553-9c0d-a9725c8cfe7f" "WRF-TEMF_ERA.nc"
+download "http://hdl.handle.net/11304/6e27e0cd-f972-4123-a956-4fff048c039f" "WRF-TEMF_GFS.nc"
+download "http://hdl.handle.net/11304/8c164df1-7594-4622-b5e6-652cbfa02f7e" "WRF-YSU_ERA.nc"
+download "http://hdl.handle.net/11304/3b861162-08e8-46bd-886f-3b7e7d78f63d" "WRF-YSU_GFS.nc"
 
 #Fetch validation data from the source
 download "http://projects.knmi.nl/gabls/gabls3_scm_cabauw_obs_v33.nc" "gabls3_scm_cabauw_obs_v33.nc" 
