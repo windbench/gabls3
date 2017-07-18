@@ -4,7 +4,7 @@ FROM unidata/python
 USER root
   
 # add the scripts from github to the image 
-COPY build_resourcess/ /home/jovyan/work/
+COPY GABLS3-CFDWindSCM/ /home/jovyan/work/
 RUN chown -R $NB_USER:users /home/jovyan/work/
 COPY eudat_start.sh /usr/local/bin/
 RUN chown -R $NB_USER:users /usr/local/bin/eudat_start.sh
