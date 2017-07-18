@@ -16,4 +16,4 @@ USER jovyan
 #create a directory for mounting data
 RUN mkdir /home/$NB_USER/work/data
 
-CMD ["eudat_start.sh"]
+CMD ["start.sh"]
