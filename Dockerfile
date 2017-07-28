@@ -5,6 +5,7 @@ USER root
   
 # add the scripts from github to the image 
 COPY GABLS3-CFDWindSCM/ /home/jovyan/work/
+COPY GABLS3DiurnalCycleBenchmarkForWindEnergy_2017.ipynb /home/jovyan/work/
 RUN chown -R $NB_USER:users /home/jovyan/work/
 COPY start.sh /usr/local/bin/windbench_start.sh
 RUN chown -R $NB_USER:users /usr/local/bin/windbench_start.sh
